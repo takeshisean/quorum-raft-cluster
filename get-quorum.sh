@@ -15,7 +15,7 @@ chmod 0755 /usr/local/bin/constellation-node
 rm -rf constellation-0.1.0-ubuntu1604*
 
 # install golang
-GOREL=go1.7.3.linux-amd64.tar.gz
+GOREL=go1.9.linux-amd64.tar.gz
 wget -q https://storage.googleapis.com/golang/$GOREL
 tar xfz $GOREL
 mv go /usr/local/go
